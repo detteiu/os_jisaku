@@ -5,7 +5,7 @@
 #define MULTIBOOT_HEADER_FLAGS 0x00000003
 
 .text
-.globl start, _start
+.global start, _start
 
 start:
 _start:
